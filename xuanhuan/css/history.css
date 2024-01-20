@@ -1,0 +1,60 @@
+.wrap {
+      max-width: 1000px;
+      min-width: 360px;
+      padding: 0 14px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 32px 0;
+      color: #333;
+    }
+
+    .bookmarks-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      grid-gap: 16px;
+    }
+
+    .bookmarks-content li a{
+      border-radius: 8px;
+      border: .5px solid #ddd;
+      padding: 16px;
+      display: flex;
+      cursor: pointer;
+    }
+
+    .bookmarks-content li img {
+      border-radius: 6px;
+      margin-right: 14px;
+      height: 132px;
+      width: 99px;
+    }
+
+    .bookmarks-content li div {
+      height: 132px;
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+    }
+
+    .bookmarks-content li h3 {
+      font-size: 20px;
+      line-height: 28px;
+      height: 56px;
+      margin-bottom: 14px;
+    }
+
+    .bookmarks-content li .progress-bar {
+      height: 4px;
+      background-color: #ccc;
+      border-radius: 5px;
+      margin-top: 7px;
+    }
+
+    .bookmarks-content li .progress-bar div {
+      height: 100%;
+      background-color: #3b66f5;
+      border-radius: 5px;
+    }

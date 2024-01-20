@@ -1,0 +1,102 @@
+.rotation a {
+  border-radius: 8px;
+  background-image: url("/static/img/my_1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.rotation .content {
+  height: 226px;
+  width: 300px;
+  background-color: transparent;
+  right: 30px;
+  top: 30px;
+  overflow: hidden;
+}
+
+.rotation .title {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.rotation .desc {
+  font-size: 16px;
+  color: #fff;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  overflow: hidden;
+}
+
+.rotation ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 16px;
+  width: 100%;
+}
+
+.rotation ul li {
+  height: 8px;
+  width: 8px;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.rotation ul .active {
+  background-color: #fff;
+}
+
+.rotation ul li:hover {
+  background-color: #fff;
+}
+
+.announcements a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  padding: 0 8px;
+}
+
+.announcements a .content {
+  height: 70px;
+  /*overflow: hidden;*/
+}
+
+.announcements a p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.announcements a:hover {
+  background-color: #efefef;
+}
+
+.announcements h3 {
+  border-bottom: 1px solid #ddd;
+  padding: 0 8px 19px;
+}
+
+.announcements h4 {
+  margin-bottom: 5px;
+}
+
+.announcements p {
+  font-size: 14px;
+  color: #888;
+
+}
+
+.announcements a img {
+  height: 70px;
+  border-radius: 5px;
+  margin-left: 8px;
+}

@@ -1,0 +1,46 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.chapter-content {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.chapter-content h1 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #333;
+  margin: 1.25em 0;
+}
+
+.chapter-content p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 1.25em 0;
+  line-height: 24px;
+  color: #333;
+}
+
+.page-content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-content .next {
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #3b66f5;
+  border-radius: 100px;
+}
+
+.page-content .pre {
+  margin-top: 16px;
+  color: #616161;
+  font-size: 14px;
+  text-decoration: underline;
+}

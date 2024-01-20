@@ -1,0 +1,40 @@
+.banner .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner .swiper-slide::before {
+  content: "";
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  backdrop-filter: blur(100px);
+  border-radius: 12px;
+}
+
+/* 模糊半径 */
+.banner .swiper-slide .img {
+  width: 200px;
+  height: 267px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.banner .swiper-slide .content {
+  width: 70%;
+  z-index: 2;
+}
+
+.banner .swiper-slide .content h3 {
+  color: #eee;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.banner .swiper-slide .content p {
+  font-size: 18px;
+  line-height: 120%;
+  color: #eee;
+}

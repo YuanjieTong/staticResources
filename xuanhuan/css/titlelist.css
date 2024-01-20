@@ -1,0 +1,12 @@
+.title-list .image {
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  /* box-shadow: 5px 5px 5px black; */
+}
+
+.swiper-wrapper .swiper-slide {
+  /*margin-right: 20px;*/
+}
